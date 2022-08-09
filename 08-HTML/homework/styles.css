@@ -5,19 +5,17 @@ h1 {
   img {
     width: 400px;
   }
-
-.divClass {
-
-  }
-   
+    
 #thirdDiv {
     height: 800px;
     width:500px;
     background-color:blueviolet;
     padding: 50px;
-    border: 2px solid grey;
+    border: 2px solid black;
+    margin: 50px;
+
   }
-#spanId ¨{
+#spanId {
     font-size: 18px;
     margin: 50px;
 }
