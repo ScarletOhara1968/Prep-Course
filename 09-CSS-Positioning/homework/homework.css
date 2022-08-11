@@ -7,7 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block ;
+    text-align:justify;
 }
 
 
@@ -15,24 +16,60 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioDos {
+    display: none ;
+}
 
 
-/* Ejercicio 3: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 4: */
+/* Ejercicio 3: posicionar y ajustar imagen acorde la caja */
 
 /* Acá va tu código */
 
+#ejercicioTres {
+    position:relative;
+    margin-top:100px;
+    margin-left: 200px;
+}
 
 
-/* Ejercicio 5: */
+/* Ejercicio 4: Caja Azul fija en la parte superior izquierda de la página. */
 
 /* Acá va tu código */
 
+#ejercicioCuatro {
+    position:fixed;
+    top:0px;
+}
+
+/* Ejercicio 5: centrado proporcionalmente y centrado verticalmente en la linea. */
+
+/* Acá va tu código */
+
+#ejercicioCinco {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
 
 
-/* Ejercicio 6. */
+/* Ejercicio 6. ordenar los elementos del header, cambio de la dirección de los elementos.*/
+
+/* Acá va tu código */
+#ejercicioSeis {
+    display:flex;
+    flex-direction:row-reverse;
+}
+/* Ejercicio 7. Juego libre usando los conceptos que aprendimos sobre flexbox, incluyendo: "justify-content", "align-items", "align-self", y "flex-direction". */
+
+/* Acá va tu código */
+#ejercicioSiete {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+}
+#elementoTres {
+    position:relative;
+    align-items: center;
+    top: 0px;
+    left:160px;   
+}
